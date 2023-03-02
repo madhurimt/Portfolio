@@ -2,10 +2,200 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio</title>
     <link rel="stylesheet" href="style.css" />
+    <title>Portfolio</title>
   </head>
-  <body></body>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li>
+            <a href="#about">About</a>
+          </li>
+          <li>
+            <a href="#work">Work</a>
+          </li>
+          <li>
+            <a href="./images/Resume.pdf" target="blank">Resume</a>
+          </li>
+          <li>
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <section class="intropage">
+      <figure class="profilepic">
+        <img
+          src="./images/Profile1.jpg"
+          height="600px"
+          width="600px"
+          alt="My avatar"
+        />
+      </figure>
+      <aside class="intro">
+        <span id="intro1"> </span><br />
+        <span id="intro2"> </span><br />
+        <span id="intro3"> </span>
+      </aside>
+    </section>
+
+    <section class="icons">
+      <ul>
+        <li>
+          <a
+            href="https://www.linkedin.com/in/madhuri-m-96b89481/"
+            target="blank"
+          >
+            <img src="./images/icons8-linkedin-48.png"
+          /></a>
+        </li>
+        <li>
+          <a href="https://github.com/madhurimt" target="blank">
+            <img src="./images/icons8-github-48.png"
+          /></a>
+        </li>
+        <li>
+          <a href="mailto:madhuri.maniktahla@gmail.com?" target="blank">
+            <img src="./images/icons8-mail-48.png"
+          /></a>
+        </li>
+        <li>
+          <a href=""><img src="./images/icons8-home-48.png" /></a>
+        </li>
+      </ul>
+    </section>
+
+    <section class="content">
+      <section id="about" class="pagestyle">
+        <h2>About</h2>
+        <p>
+          Hi,I am Madhuri Maniktahla. I am a front-end web developer with
+          expertise in JavaScript, HTML, and CSS. I have recently completed a
+          coding bootcamp and have a degree in computer science engineering. I
+          also have experience as an application support engineer and possess
+          project and time management skills. I spend my time designing and
+          coding web applications and enjoy outdoor activities in my free time.
+        </p>
+      </section>
+
+      <section id="work" class="pagestyle">
+        <h2>Work</h2>
+
+        <figure class="projects">
+          <div class="card">
+            <ul>
+              <li class="card1">
+                <h3>Weather Dashboard</h3>
+                <p>
+                  A simple weather dashboard to display current weather of
+                  different cities<br /><br />
+                  HTML, CSS, JavaScript, Open Weather API
+                </p>
+                <img src="./images/weather.jpg" alt="Weather App" />
+                <h6>
+                  <a
+                    href="https://weather-project-xi.vercel.app/"
+                    target="blank"
+                    >Application</a
+                  >
+                  ||
+                  <a
+                    href="https://github.com/madhurimt/weather_project"
+                    target="blank"
+                    >Repository
+                  </a>
+                </h6>
+              </li>
+              <li class="card1">
+                <h3>Breathing App</h3>
+                <p>
+                  An application for users to meditate and relax.<br /><br />
+                  HTML, CSS, JavaScript
+                </p>
+                <img src="./images/meditation.jpg" alt="Meditation App" />
+                <h6>
+                  <a
+                    href="https://hosting-breathing-85pkm25vq-madhurimt.vercel.app/"
+                    target="blank"
+                    >Application</a
+                  >
+                  ||
+                  <a
+                    href="https://github.com/madhurimt/hosting-parcel-with-vercel"
+                    target="blank"
+                    >Repository
+                  </a>
+                </h6>
+              </li>
+              <li class="card1">
+                <h3>Calculator</h3>
+                <p>
+                  An application for users to do basic calculations.
+                  <br /><br />
+                  HTML, CSS, JavaScript
+                </p>
+                <img src="./images/calculator.jpg" alt="Calculator" />
+                <h6>
+                  <a
+                    href="https://tranquil-lamington-ffe5f7.netlify.app/"
+                    target="blank"
+                    >Application</a
+                  >
+                  ||
+                  <a
+                    href="https://github.com/madhurimt/calculator"
+                    target="blank"
+                    >Repository
+                  </a>
+                </h6>
+              </li>
+              <li class="card1">
+                <h3>GitHub Commands</h3>
+                <p>
+                  A simple page to list all the GitHub commands.
+                  <br /><br />
+                  HTML, CSS, JavaScript
+                </p>
+                <img src="./images/github.jpg" alt="Weather" />
+                <h6>
+                  <a
+                    href="https://vocal-custard-4058ae.netlify.app/"
+                    target="blank"
+                    >Application</a
+                  >
+                  ||
+                  <a
+                    href="https://github.com/madhurimt/github_replicate"
+                    target="blank"
+                    >Repository
+                  </a>
+                </h6>
+              </li>
+            </ul>
+          </div>
+        </figure>
+      </section>
+
+      <section id="contact" class="pagestyle">
+        <h2>Contact</h2>
+        <form action="https://formspree.io/f/xleaagkl" method="POST">
+          <label>
+            Name
+            <input /> </label
+          ><br />
+          <label>
+            Email
+            <input type="email" name="_replyto" /> </label
+          ><br />
+          <label>
+            Message
+            <textarea name="message"></textarea></label
+          ><br />
+          <button type="submit">Send</button>
+        </form>
+      </section>
+    </section>
+  </body>
 </html>
