@@ -1,0 +1,5 @@
+[[plugins]]
+package ="netlify-plugin-cloudinary"
+
+[plugins.inputs]
+cloudName= "dr3ro7w81"
