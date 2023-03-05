@@ -167,6 +167,7 @@
     list-style-type: none;
     display: block;
   }
+
   /* media queries are used to resize the profile picture, to respond to different viewport*/
   @media screen and (max-width: 768px) {
     * {
